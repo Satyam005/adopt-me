@@ -1,5 +1,9 @@
 const Pet = () => {
-  return React.createElement("div", {}, []);
+  return React.createElement("div", {}, [
+    React.createElement("h1", {}, "Luna"),
+    React.createElement("h2", {}, "Dog"),
+    React.createElement("h2", {}, "Havanese"),
+  ]);
 };
 
 const App = () => {
